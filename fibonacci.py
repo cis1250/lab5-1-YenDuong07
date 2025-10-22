@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-def validating(user_input):
+def validating():
   while True:
     user_input = input("Enter a number: ")
     user_input = int(user_input)
@@ -30,7 +30,7 @@ def fibonacci(user_input):
 def print_fib (answer):
   print(answer)
 
-user_input = validating(user_input)
+user_input = validating()
 fibonacci(user_input)
 
 # Fibonacci Sequence Exercise with functions
